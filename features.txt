@@ -1,0 +1,16 @@
+YourTube is a site for watching embedded youtube videos. Navigate to homepage.php to access all the public videos. You will be able to
+see the video stats (total views, likes, comments, dislikes etc). To see the newest 20 comments with replies you can navigate to view
+comments and replies page right below the embedded videos. 
+
+If you are a registered user, you can access our exclusive videos with video stats by signing in from the homepage. If you dont have an account, you can 
+sign up to see the exclusive videos with the comments and replies. Login Logout conditions are maintained properly.
+
+System Admin has the privileges of adding public and exclusive videos.
+Log in as admin by passing credentials : 
+Name:zawad 
+Password:access
+
+An Admin will copy a youtube video url and paste it to the admin homepage textfield. If it is a valid youtube video url( url must contain "youtube.com/watch")
+and not previously inserted, the video will be added to the database. Conditions are met for insertion for even those videos that can be seen after navigating inside youtube channels.
+Based upon threshold of 100k viewcount, videos more than 100k views will be added for public view and less than 100k will be for signed in users only. Admin also
+has the privileges to see public, locked video stats with signed in users info as well.

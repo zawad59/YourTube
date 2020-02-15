@@ -1,0 +1,67 @@
+.header{
+    width: 15%;
+    height:10%;
+  margin: 20px auto 0px;
+  color: white;
+  background: #5F9EA0;
+  text-align: center;
+  border: 1px solid #B0C4DE;
+  border-bottom: none;
+  border-radius: 10px 10px 0px 0px;
+  padding: 10px;
+  float : center;
+}
+.content{
+    float:center;
+}
+.links{
+       float:center;
+       padding-left: 655px;
+}
+.link1{
+    
+    
+    float:left;
+    
+    
+    margin:10px;
+    
+}
+.locked{
+    padding:5px;
+}
+
+.link2{
+    
+
+     
+     float:left;   margin:10px;
+    
+}
+.link3{
+    
+
+     
+    float:center;
+       padding-left: 745px;
+       padding-top: 45px;
+    
+}
+.Go{
+    float:center;
+    padding-left: 715px;
+    padding-top: 15px;
+    width : 20%;
+    
+   
+}
+.url{
+     margin: 20px auto 0px;
+      padding-left: 620px;
+      padding-top: 1px;
+      float:center;
+}
+h2{
+    float:center;
+    padding-left: 65px;
+}
